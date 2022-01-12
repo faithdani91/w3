@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>W3 alapok</title>
+
+	<link rel="stylesheet" href="../dist/reveal.css">
+	<link rel="stylesheet" href="../dist/theme/white.css" id="theme">
+	<style type="text/css" media="screen">
+		.slides section.has-dark-background,
+		.slides section.has-dark-background h3 {
+			color: #fff;
+		}
+		.reveal ul{
+			font-size: 2.2rem;
+		}
+
+		.slides section.has-light-background,
+		.slides section.has-light-background h3 {
+			color: #222;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<div class="slides">
+
+			<section>
+				<h3>WWW <br> World Wide Web</h3>
+			</section>
+
+			<section>
+				<h3>A W3 3 fő eleme</h3>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+				</ul>
+			</section>
+
+			<section data-transition="zoom">
+				<h3>Mi az a HTML?</h3>
+				<ul>
+					<li>
+						A HTML (HyperText Markup Language) egy leíró nyelv, amelyet weboldalak készítéséhez használunk. Egy HTML kód
+						egyértelműen meghatározza a weboldal felépítését, kinézetét. Azaz a HTML nyelven megírt kódot a webböngésző értelmezi,
+						majd a kód alapján megjeleníti a már általunk megszokott oldalakat.
+					</li>
+					<li>A HTML úgynevezett 'tag'-ekből épül fel, ami az adott elem alap tulajdonságait írja le a böngészőnek</li>
+					<li>
+						<a href="https://www.w3schools.com/html/html_intro.asp">Akit bővebben érdekel a téma, sok olvasnivalót talál a W3schools oldalán.</a>
+					</li>
+				</ul>
+			</section>
+
+			<section data-transition="zoom-in fade-out">
+				<h3>Mi az a CSS?</h3>
+				<ul>
+					<li>
+						A CSS (azaz „egymásba ágyazott stíluslapok”) a webhelyek vizuális stílusát határozza meg.
+					</li>
+					<li>
+						A CSS segítségével egy weboldal HTML elemeinek különböző paramétereket szabhatunk meg. Ezek a paraméterek kihathatnak az
+						elemek színére, méretére, és egyéb vizuális tulajdonságaira.
+					</li>
+					<li>
+						A külső CSS egy külön fájl, amire a HTML weblap hivatkozik. A belső CSS a HTML dokumentum fejrészében helyezkedik el. az
+						Inline CSS a HTML dokumentum szövegében közvetlenül helyezkedik el.
+					</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Mi az a JavaScript?</h3>
+				<ul>
+					<li>
+						A JS egy magas szintű, JIT, objektum orientált programnyelv a webre fejlesztve. 
+					</li>
+					<li>
+						A JS csinál mindent, ami dinamikus egy weboldalon.
+					</li>
+					<li>
+						A JS a böngésző motorjában fut egy saját környezetben, nem éri el a saját gépünket.
+					</li>
+				</ul>
+			</section>
+
+			<section data-transition="convex">
+				<h3>Hasznos linkek:</h3>
+				<ul>
+					<li>
+						<a href="https://www.w3schools.com/">W3schools</a>
+					</li>
+					<li>
+						<a href="https://www.udemy.com/">Udemy</a>
+					</li>
+					<li>
+						<a href="https://developer.mozilla.org/en-US/">Mozilla MDN (részletesebb, de kevésbé befogadható)</a>
+					</li>
+				</ul>
+			</section>
+
+			<section data-transition="convex-in concave-out">
+				<h3>data-transition: convex-in concave-out</h3>
+			</section>
+
+			<section>
+				<section data-transition="zoom">
+					<h3>Default</h3>
+				</section>
+				<section data-transition="concave">
+					<h3>data-transition: concave</h3>
+				</section>
+				<section data-transition="convex-in fade-out">
+					<h3>data-transition: convex-in fade-out</h3>
+				</section>
+				<section>
+					<h3>Default</h3>
+				</section>
+			</section>
+
+			<section data-transition="none">
+				<h3>data-transition: none</h3>
+			</section>
+
+			<section>
+				<h3>Default</h3>
+			</section>
+
+		</div>
+
+	</div>
+
+	<script src="../dist/reveal.js"></script>
+	<script>
+		Reveal.initialize({
+			center: true,
+			history: true,
+
+			// transition: 'slide',
+			// transitionSpeed: 'slow',
+			// backgroundTransition: 'slide'
+		});
+	</script>
+
+</body>
+
+</html>
